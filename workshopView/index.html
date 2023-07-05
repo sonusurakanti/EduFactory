@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./workView.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFactory | Details</title>
+  </head>
+  <body>
+    <header>
+      <h3 id="edu">EduFactory</h3>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="javascript:void(0)">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#details">Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#comment">Comments</a>
+              </li>
+            </ul>
+      </nav>
+
+    <section class="start">
+
+        <div class="container mt-3">
+            
+            <div class="row">
+              <div class="col-sm-6 p-3 text-dark">
+                <h1 class="head1">Cybersecurity</h1>
+            <p class="p">Practice of protecting systems</p>
+            <p class="p">Organized By Cybersecurity Department - IARE</p>
+            
+            <div class="container mt-3" id="boxx">
+              <div class="row">
+                <!--box1-->
+                <div class="col p-3 text-dark">
+                  <!-- book --> 
+                  <a href="https://whimsical-lily-30498d.netlify.app" target="_blank"><button type="button" class="btn btn-success book">Book Seats</button></a>
+
+                  <div class="card box">
+                    <div class="card-header">
+                      <div class="d-flex text-center">
+                        <i class="fa fa-map-marker loc fav" style="font-size:18px; padding-top: 10px; padding-right: 2px;"></i></i>
+                        <p class="loc">Venue</p>
+                      </div>
+                    </div>
+                    <div class="card-body">Madhapur</div> 
+                  </div>
+                </div>
+                <!--box2-->
+                <div class="col p-3 text-dark">
+                  <div class="card box" id="box2">
+                    <div class="card-header">
+                      <div class="d-flex text-center">
+                        <i class="fa fa-clock-o" style="font-size:18px; padding-top: 10px; padding-right: 2px;"></i>
+                        <p class="loc">Timings</p>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <p>Start - 24th sep</p>
+                      <p>End - 25th sep</p>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              </div>
+              <div class="col-sm-6 p-3 text-white">
+                <img src="./cyber.jpeg" alt="img" width="100%" height="100%" class="img">
+              </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="details" id="details">
+
+      <div class="container mt-4">
+        <div class="card about">
+          <div class="card-header bg-light">About Workshop</div>
+          <div class="card-body abody">
+            <div class="container mt-4">
+            <p>A workshop on <b>"ETHICAL HACKING & CYBER SECURITY"</b> presented by Cybersecurity Department - IARE.</p>
+            <p>Hacking is not about the illegal things it's all about how to secure your cyberspace and system from attacks. In this workshop cyber ethics, email hacking & security, malware attacks, windows system attacks,online data Investigation,credit card frauds & Cases, playing with google by google hacking, android mobile hacking etc. topics will be covered. This workshop aims to give Technocrats a basic knowledge of hacking and how to protect your system against hazardous effects.</p>
+          </div>
+          </div> 
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="card Ben">
+          <div class="card-header bg-light">Workshop Benifits</div>
+          <div class="card-body abody">
+            <div class="container mt-4">
+            <ul>
+              <li>Exposure to Ethical Hacking the latest tools and methods being used by cyber criminals & terrorists and howv ethical Hackers can fight them.</li>
+              <li>How attacks bypass your second step verification security of email within seconds.</li>
+              <li>Reset Windows admin password (Include Window 7,8,10) within second with the help of guest account without any softwares.</li>
+              <li>Career guidance and scope of cyber security by experienced faculty.</li>
+            </ul>
+          </div>
+          </div> 
+        </div>
+      </div>
+
+    </section>
+
+    <section class="comment" id="comment">
+      <div class="container mt-4">
+      <form action="/action_page.php">
+        <div class="mb-3 mt-3">
+          <label for="comment" class="c1">Comments:</label>
+          <textarea class="form-control c1" rows="5" id="comment" name="text" placeholder="comment here"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    </section>
+  </body>
+</html>

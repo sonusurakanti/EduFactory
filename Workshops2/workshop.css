@@ -1,0 +1,25 @@
+header {
+  font-size: 30px;
+  font-weight: bolder;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgb(235, 243, 250);
+}
+
+h3 {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.feat {
+  padding: 10px;
+}
+
+#fav {
+  font-size: 30px;
+}
+.loc {
+  padding: 5px;
+}
